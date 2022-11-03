@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    background-size: 100%;
+    background-position: left;
+ }
+
+
+.enterDetails{
+    border-radius: 25px;
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0 , 0, 3);
+    background: black;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+
+}
+
+.enterDetails h1{
+    color: goldenrod;
+    margin-bottom: 30px;
+}
+
+.enterEmail{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid #999;
+    outline: none;
+    transition: 0.25s;
+    text-align: center;
+}
+
+.enterEmail:focus{
+    width: 280px;
+    border-color: goldenrod;
+}
+
+button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid #999;
+    outline: none;
+    transition: 0.25s;
+    text-align: center;
+}
+
+.input-box:focus{
+    width: 280px;
+    border-color: goldenrod;
+}
+
+
+.insertBtn{
+    background-color: goldenrod;
+}
